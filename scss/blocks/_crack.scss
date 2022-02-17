@@ -1,0 +1,65 @@
+.crack{
+
+  margin-top: 200px;
+}
+
+  .crack__inner{
+
+    background-image: url(../images/bg-foot.png);
+    background-repeat: no-repeat;
+    // background-size: 100% 100%;
+    background-position: center calc(50% - 100px);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+
+
+.crack__content{
+  width: 657px;
+  margin-top: 63px;
+
+}
+
+.crack__block{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+
+}
+
+@media only screen and (max-width:426px) {
+
+  .crack{
+
+    margin-top: 180px;
+  }
+
+  .crack__inner{
+
+    width: 100%;
+    background-size: 335px 100px;
+    background-position: center top;
+
+
+  }
+
+  .crack__content{
+    width: 100%;
+    margin-top: 30px;
+
+  }
+
+  .crack__block{
+    width: 20px;
+    height: 20px;
+    right: -10px;
+
+
+  }
+
+
+
+}

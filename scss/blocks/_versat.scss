@@ -1,0 +1,75 @@
+.versat{
+  margin-top: 200px;
+}
+.versat__content{
+  width: 972px;
+}
+
+.versat__title{
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 38px;
+  color: #FFFFFF;
+  margin: 0;
+  padding: 0;
+}
+
+.versat__text{
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  color: #FFFFFF;
+  margin: 16px 0 0 0;
+  padding: 0;
+}
+
+.versat__block{
+
+  margin-top: 32px;
+}
+
+.versat__img{
+  width: 1170px;
+}
+
+@media only screen and (max-width: 426px) {
+
+  .versat{
+    margin-top: 180px;
+  }
+
+
+  .versat__content{
+    width: 100%;
+  }
+
+
+  .versat__title{
+    font-size: 24px;
+    line-height: 33px;
+  }
+
+  .versat__text{
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 12px;
+  }
+
+  .versat__block{
+
+    margin-top: 28px;
+  }
+
+  .versat__img{
+    width: 100%;
+  }
+
+
+
+
+
+}

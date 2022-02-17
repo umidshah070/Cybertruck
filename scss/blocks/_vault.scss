@@ -1,0 +1,75 @@
+.vault{
+  margin-top: 80px;
+}
+.vault__content{
+  width: 972px;
+}
+
+.vault__title{
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 38px;
+  color: #FFFFFF;
+  margin: 0;
+  padding: 0;
+}
+
+.vault__text{
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  color: #FFFFFF;
+  margin: 16px 0 0 0;
+  padding: 0;
+}
+
+.vault__block{
+
+  margin-top: 32px;
+}
+
+.vault__img{
+  width: 1170px;
+}
+
+@media only screen and (max-width: 426px) {
+
+  .vault{
+    margin-top: 70px;
+  }
+
+
+  .vault__content{
+    width: 100%;
+  }
+
+
+  .vault__title{
+    font-size: 24px;
+    line-height: 33px;
+  }
+
+  .vault__text{
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 12px;
+  }
+
+  .vault__block{
+
+    margin-top: 28px;
+  }
+
+  .vault__img{
+    width: 100%;
+  }
+
+
+
+
+
+}

@@ -1,0 +1,75 @@
+.perfor{
+  background-image: url(../images/квадрати.png);
+  background-repeat: no-repeat;
+  background-position:right top;
+
+}
+.perfor__inner{
+  margin-top: 200px;
+}
+
+.perfor__content{
+  width: 972px;
+}
+
+.perfor__title{
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 38px;
+  color: #FFFFFF;
+  margin: 0;
+  padding: 0;
+
+}
+
+.perfor__text{
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  color: #FFFFFF;
+  margin: 16px 0 32px;
+  padding: 0;
+}
+
+@media only screen and (max-width: 426px) {
+
+  .perfor{
+    margin-top: 70px;
+    background-position: calc(80% + 100px) calc(50% + 200px);
+  }
+
+
+  .perfor__content{
+    width: 100%;
+  }
+
+
+  .perfor__title{
+    font-size: 24px;
+    line-height: 33px;
+  }
+
+  .perfor__text{
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 12px;
+  }
+
+  .perfor__block{
+
+    margin-top: 28px;
+  }
+
+  .perfor__img{
+    width: 100%;
+  }
+
+
+
+
+
+}
